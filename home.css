@@ -1,5 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   --main-color: #D35266;
   --grey: #888;
   --dark: #383838;
+}
+
+.navbar {
+  background-color: var(--dark);
+  padding: 10px 0;
+  font-family: "GothamRounded-Light";
+}
+
+.navbar-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-li {
+  margin: 0 18px;
+  font-size: 14px;
+}
+
+.nav-logo {
+  color: white;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Medium";
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+#active-link {
+  color: var(--main-color);
+}
+
+.nav-link {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.nav-icon {
+  margin-right: 14px;
+}
+
+.nav-btn {
+  font-family: "GothamRounded-Light";
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-container a {
+  text-decoration: none;
+  color: var(--grey);
+}
+
+.user-name {
+  color: white;
+  margin: 15px;
+}
+
+.user-img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.page-header {
+  background-color: var(--main-color);
+  padding: 2rem 0;
+}
+
+.page-heading-container {
+  text-align: center;
+  font-family: "HelveticaNeue-Medium";
+  color: white;
+  margin-top: 2rem;
+}
+
+.page-name {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-family: "GothamRounded-Light";
+}
+
+.search-bar input {
+  padding: 1rem 10px;
+  outline: none;
+  margin-right: 1px;
+  border: none;
+  border-radius: 2px;
+}
+
+.categories-div {
+  position: relative;
+}
+
+.categories-div input {
+  padding-left: 25px;
+}
+
+.fa-caret-down {
+  position: absolute;
+  top: 16px;
+  left: 10px;
+}
+
+.search-btn {
+  color: white;
+  background-color: var(--dark);
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 0 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.hot-ads-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hot-ads-heading {
+  margin-top: 2rem;
+  color: var(--grey);
+  font-family: "HelveticaNeue-Light";
+}
+
+.hot-ads-grid {
+  display: grid;
+  grid-template-columns: minmax(200px, 400px) 1fr;
+}
+
+.hot-ads-img {
+  max-width: 100%;
 }

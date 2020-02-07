@@ -5,61 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="./fonts/font.css">
+  <script src="https://kit.fontawesome.com/7692afb188.js" crossorigin="anonymous"></script>
   <title>HOME</title>
 </head>
 <body>
-  <style>
-    .logo {
-      font-family: "HelveticaNeue-Bold";
-    }
-
-    .home {
-      font-family: "HelveticaNeue-Medium";
-    }
-
-    .collections {
-      font-family: "HelveticaNeue-Light";
-    }
-
-    .purchase {
-      font-family: "GothamRounded-Light";
-    }
-
-    .post {
-      font-family: "GothamBold";
-    }
-  </style>
-  <nav>
-    <ul>
-      <li class="logo">LOGO</li>
-      <li class="home">HOME</li>
-      <li class="collections">COLLECTIONS</li>
-      <li class="purchase">PURCHASE LIST</li>
-      <li class="post">POST AN ADD</li>
-    </ul>
-    <div>
-      USER
+  <nav class="navbar">
+    <div class="navbar-container">
+      <ul class="navbar-list">
+        <li class="nav-li"><a class="nav-logo" href="#">CALISHOP</a></li>
+        <li class="nav-li"><a class="nav-link" id="active-link" href="#"><i class="nav-icon fas fa-home"></i>HOME</a></li>
+        <li class="nav-li"><a class="nav-link" href="#"><i class="nav-icon fas fa-list-alt"></i>COLLECTIONS</a></li>
+        <li class="nav-li"><a class="nav-link" href="#"><i class="nav-icon fas fa-shopping-cart"></i>PURCHASE LIST</a></li>
+        <li class="nav-li"><button class="nav-btn">POST AN ADD</button></li>
+      </ul>
+      <div class="user-container">
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#"><span class="user-name">John Doe</span></a>
+        <a href="#"><img class="user-img" src="https://www.sirgia.com/wp-content/uploads/2017/12/shutterstock_83672362-01.jpg"></a>
+      </div>
     </div>
   </nav>
 
-  <header>
-    <div>
-      <h1>PAGE NAME</h1>
-      <p>page description</p>
+  <header class="page-header">
+    <div class="page-heading-container">
+      <h1 class="page-name">CALISHOP</h1>
+      <p>No better place to buy calisthenics gear than this!</p>
     </div>
-    <div>
-      <div>category</div>
-      <div>query</div>
-      <div>location</div>
-      <div>
-        <button>SEARCH</button>
+    <div class="search-bar">
+      <div class="categories-div">
+        <i class="fas fa-caret-down"></i>
+        <input type="text" placeholder="All categories">
       </div>
+      <input type="text" placeholder="What are you looking for?" size="30">
+      <input type="text" placeholder="Location" size="30">
+      <button class="search-btn">SEARCH</button>
     </div>
   </header>
 
   <main>
-    <section>
-      HOT ADDS
+    <section class="hot-ads">
+      <div class="hot-ads-container">
+        <h4 class="hot-ads-heading">HOT ADS</h4>
+        <div class="hot-ads-grid">
+          <img class="hot-ads-img" src="https://cdn.shopify.com/s/files/1/1715/3893/products/elitewoodrings001_1024x1024.jpg?v=1484539622">
+          <div class="hot-ads-info">
+            <h3>Gymnastic Rings</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nesciunt debitis earum, nisi cupiditate ullam quod architecto vel tempora facilis adipisci, molestiae dolorum, sit delectus dolore quas suscipit dolor quam!</p>
+            <p><span>By:</span> John Doe</p>
+            <p><span>Location:</span> Wherever</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
       ITEM CATEGORY 1
