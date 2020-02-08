@@ -143,14 +143,35 @@ body {
 }
 
 .hot-ads-container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+  position: relative;
 }
 
 .hot-ads-heading {
-  margin-top: 2rem;
+  margin: 2rem 0 1.6rem 0;
   color: var(--grey);
   font-family: "HelveticaNeue-Light";
+}
+
+.previous, .next {
+  position: absolute;
+  top: 50%;
+  color: var(--main-color);
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.previous {
+  left: -60px;
+  padding: 8px 14px 6px 10px;
+}
+
+.next {
+  right: -60px;
+  padding: 8px 10px 6px 14px;
 }
 
 .hot-ads-grid {
@@ -158,6 +179,66 @@ body {
   grid-template-columns: minmax(200px, 400px) 1fr;
 }
 
-.hot-ads-img {
-  max-width: 100%;
+.hot-ads-img-div {
+  position: relative;
+  background: url("https://cdn.shopify.com/s/files/1/1715/3893/products/elitewoodrings001_1024x1024.jpg?v=1484539622") center/cover no-repeat;
+}
+
+.arrows-div {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--dark);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.arrows-div i {
+  padding: 8px 10px;
+}
+
+.hot-ads-info {
+  padding-left: 2rem;
+  color: var(--grey);
+  font-family: "HelveticaNeue-Medium";
+  line-height: 1.5;
+}
+
+.rings-title {
+  color: var(--main-color);
+  font-family: "HelveticaNeue-Light";
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.rings-description {
+  margin-bottom: 1.2rem;
+}
+
+.rings-seller span, .rings-location span {
+  font-family: "GothamRounded-Light";
+}
+
+.rings-purchase {
+  display: inline-block;
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 4px;
+  margin-top: 2.2rem;
+  cursor: pointer;
+}
+
+.rings-price {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-right: 1px solid var(--dark);
+  font-size: 20px;
+}
+
+.rings-details {
+  padding: 1rem 2rem 1rem .8rem;
+}
+
+.rings-details i {
+  margin-right: 10px;
 }
