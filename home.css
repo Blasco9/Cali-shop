@@ -341,19 +341,69 @@ body {
   font-size: 18px;
 }
 
-.footer-main-container {
+footer {
+  padding: 2rem 0;
+  border-top: 1px solid #ccc;
+  font-family: "HelveticaNeue-Medium";
+  font-size: 14px;
+}
+
+.footer-main-container, .footer-copyright-container {
   width: 70%;
   margin: 0 auto;
   display: flex;
   color: var(--grey);
 }
 
-.footer-logo-div, .footer-categories-div {
+.footer-logo-div, .footer-categories-div, .footer-navigation-div {
   flex-basis: 100%;
 }
 
 .footer-logo {
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Bold";
   font-size: 1.5rem;
-  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-categories-div {
+  margin: 0 40px;
+}
+
+.categories-list-container {
+  display: flex;
+}
+
+.categories-list-container div {
+  flex-basis: 100%;
+}
+
+.categories-heading, .navigation-heading {
+  color: var(--main-color);
+  font-family: "HelveticaNeue-Medium";
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.categories-link, .navigation-link {
+  color: inherit;
+  text-decoration: none;
+  line-height: 1.5;
+  display: block;
+}
+
+.footer-copyright-section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ccc;
+}
+
+.footer-copyright-container {
+  justify-content: space-between;
+}
+
+.social-media i {
+  font-size: 20px;
+  padding: 0 5px;
+  cursor: pointer;
 }
