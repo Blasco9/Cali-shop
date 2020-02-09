@@ -9,6 +9,14 @@ body {
   --dark: #383838;
 }
 
+.red-color {
+  color: var(--main-color);
+}
+
+.bg-grey {
+  background-color: #eee;
+}
+
 .navbar {
   background-color: var(--dark);
   padding: 10px 0;
@@ -142,14 +150,19 @@ body {
   cursor: pointer;
 }
 
+.hot-ads {
+  border-bottom: 1px solid #ccc;
+}
+
 .hot-ads-container {
   width: 70%;
   margin: 0 auto;
   position: relative;
+  padding: 2.5rem 0;
 }
 
 .hot-ads-heading {
-  margin: 2rem 0 1.6rem 0;
+  margin-bottom: 1.6rem;
   color: var(--grey);
   font-family: "HelveticaNeue-Light";
 }
@@ -241,4 +254,106 @@ body {
 
 .rings-details i {
   margin-right: 10px;
+}
+
+/**********************************************/
+
+.section-container {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+  font-family: "HelveticaNeue-Light";
+  color: var(--dark);
+}
+
+.previous-product {
+  left: -90px;
+  color: var(--dark);
+  font-size: 3rem;
+  border: none;
+}
+
+.next-product {
+  right: -90px;
+  color: var(--dark);
+  font-size: 3rem;
+  border: none;
+}
+
+.section-heading {
+  margin-bottom: 1.6rem;
+  padding-bottom: 1rem;
+  font-family: "HelveticaNeue-Light";
+  border-bottom: 1px solid #ccc;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-div {
+  width: 100%;
+  background-color: white;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+}
+
+.grid-div img {
+  width: 100%;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.product-state {
+  font-weight: bold;
+  color: var(--main-color);
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.product-from {
+  color: var(--grey);
+}
+
+.product-price-container {
+  margin-top: 1rem;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-plus {
+  color: var(--grey);
+  border: 1px solid;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.product-price {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-main-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  color: var(--grey);
+}
+
+.footer-logo-div, .footer-categories-div {
+  flex-basis: 100%;
+}
+
+.footer-logo {
+  font-family: "HelveticaNeue-Medium";
+  font-size: 1.5rem;
+  font-weight: bold;
 }
