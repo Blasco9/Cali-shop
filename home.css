@@ -28,6 +28,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-list {
@@ -93,6 +94,22 @@ body {
   border-radius: 50%;
 }
 
+.user-container .username-initial {
+  display: none;
+  color: white;
+  font-size: 22px;
+  font-family: "Gotham-Bold";
+  padding: 10px 16px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.menu-icon {
+  display: none;
+  color: var(--main-color);
+  font-size: 24px;
+}
+
 .page-header {
   background-color: var(--main-color);
   padding: 2rem 0;
@@ -155,7 +172,7 @@ body {
 }
 
 .hot-ads-container {
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
   position: relative;
   padding: 2.5rem 0;
@@ -243,17 +260,17 @@ body {
 
 .rings-price {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: .8em 1.6em;
   border-right: 1px solid var(--dark);
   font-size: 20px;
 }
 
 .rings-details {
-  padding: 1rem 2rem 1rem .8rem;
+  padding: 1em 2em 1em .8em;
 }
 
-.rings-details i {
-  margin-right: 10px;
+.rings-purchase i {
+  padding-left: 10px;
 }
 
 /**********************************************/
@@ -272,6 +289,7 @@ body {
   color: var(--dark);
   font-size: 3rem;
   border: none;
+  padding: 0;
 }
 
 .next-product {
@@ -279,6 +297,7 @@ body {
   color: var(--dark);
   font-size: 3rem;
   border: none;
+  padding: 0;
 }
 
 .section-heading {
@@ -288,25 +307,77 @@ body {
   border-bottom: 1px solid #ccc;
 }
 
-.grid-1 {
+.products-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr); 
   grid-gap: 20px;
 }
 
-.grid-div {
-  width: 100%;
+.product-container {
+  min-width: 100%;
   background-color: white;
   border: 1px solid var(--grey);
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
 }
 
-.grid-div img {
-  width: 100%;
+.product-img-div {
+  padding: 45%;
+}
+
+.structure-1 {
+  background: url(https://images-na.ssl-images-amazon.com/images/I/61VGFbQQxuL._AC_SX425_.jpg) center/contain no-repeat;
+}
+
+.structure-2 {
+  background: url(https://images-na.ssl-images-amazon.com/images/I/31IZ31R%2BNJL._SX425_.jpg) center/contain no-repeat;
+}
+
+.structure-3 {
+  background: url(https://www.xorbars.co.uk/wp-content/uploads/2014/04/Custombars2.jpg) center/cover no-repeat;
+}
+
+.structure-4 {
+  background: url(https://calisthenicseastafrica.org/wp-content/uploads/2019/06/1.jpeg) center/contain no-repeat;
+}
+
+.weights-1 {
+  background: url(https://cdn.shopify.com/s/files/1/1950/1891/products/LRG_DSC03081.jpg?v=1546481868) center/contain no-repeat;
+}
+
+.weights-2 {
+  background: url(https://www.rebelsport.com.au/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-srg-internal-master-catalog/default/dwac1d616c/images/554911/Rebel_554911_hi-res.jpg?sw=558&sh=558&sm=fit) center/contain no-repeat;
+}
+
+.weights-3 {
+  background: url(https://cdn.shopify.com/s/files/1/2094/9815/products/Camoflage_Weight_Vest_WV30_WV10_WV15_WV20-WEB.jpg?v=1571708445) center/contain no-repeat;
+}
+
+.weights-4 {
+  background: url(https://images-na.ssl-images-amazon.com/images/I/91TSvAKh11L._AC_SL1500_.jpg) center/contain no-repeat;
+}
+
+.handles-1 {
+  background: url(https://m.media-amazon.com/images/I/61wwnZwBAqL._SR500,500_.jpg) center/contain no-repeat;
+}
+
+.handles-2 {
+  background: url(https://www.gymnasticsdirect.com.au/images/products/367_one.jpg) center/contain no-repeat;
+}
+
+.handles-3 {
+  background: url(https://images-na.ssl-images-amazon.com/images/I/718Os1JFIqL._AC_SL1500_.jpg) center/contain no-repeat;
+}
+
+.handles-4 {
+  background: url(https://rukminim1.flixcart.com/image/352/352/bar/d/s/p/nike-push-up-grips-original-imadp5hsgdfxga7g.jpeg?q=70) center/contain no-repeat;
 }
 
 .product-info {
   padding: 1rem;
+  border-top: 1px solid #ccc;
+  height: 40%;
 }
 
 .product-state {
@@ -406,4 +477,179 @@ footer {
   font-size: 20px;
   padding: 0 5px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .user-container a {
+    display: none;
+  }
+
+  .user-container .username-initial {
+    display: block;
+  }
+
+  .nav-li {
+    margin: 0 8px;
+  }
+
+  .nav-icon {
+    margin: 0 5px;
+  }
+
+  .rings-price {
+    font-size: 16px;
+  }
+
+  .rings-details {
+    font-size: 12px;
+  }
+
+  .previous {
+    left: -50px
+  }
+
+  .next {
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-li, .nav-btn {
+    font-size: 12px;
+  }
+  
+  .rings-price {
+    border: none;
+    padding-right: 0;
+  }
+  
+  .rings-details {
+    display: none;
+  }
+
+  .rings-purchase i {
+    padding-right: 20px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .product-container:nth-of-type(3), .product-container:nth-of-type(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .nav-li span {
+    display: none;
+  }
+
+  .nav-icon {
+    font-size: 16px;
+  }
+
+  .search-bar input {
+    width: 200px;
+  }
+
+  .categories-div input {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+  
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-bar input, .categories-div, .search-btn {
+    width: 70%;
+    margin: 6px 0;
+    box-sizing: border-box;
+  }
+
+  .categories-div input {
+    width: 100%;
+    margin: 0;
+  }
+
+  .search-btn {
+    padding: 1rem 0;
+  }
+
+  .hot-ads-container {
+    width: 75%;
+  }
+
+  .hot-ads-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hot-ads-info {
+    padding: 0;
+  }
+
+  .hot-ads-img-div {
+    min-height: 400px;
+  }
+
+  .hot-ads-container .previous, .hot-ads-container .next {
+    top: 32%;
+  }
+
+  .rings-purchase {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
+
+  .product-container {
+    width: 100%;
+    background-color: white;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-main-container, .footer-copyright-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .footer-logo-div, .footer-categories-div, .footer-navigation-div {
+    margin: 10px 0;
+  }
+
+  .footer-copyright-container {
+    text-align: center;
+  }
+
+  .social-media {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-li, .user-container {
+    display: none;
+  }
+
+  .nav-li:nth-of-type(1), .menu-icon {
+    display: block;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-container:nth-of-type(2) {
+    display: none;
+  }
 }
