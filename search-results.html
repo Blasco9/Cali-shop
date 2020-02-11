@@ -1,11 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Results</title>
-</head>
-<body>
-  
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="search-results.css" />
+		<link rel="stylesheet" href="./fonts/font.css" />
+		<script src="https://kit.fontawesome.com/7692afb188.js" crossorigin="anonymous"></script>
+		<title>Search Results</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar-container">
+				<ul class="navbar-list">
+					<li class="nav-li"><a class="nav-logo" href="index.html">CALISHOP</a></li>
+					<li class="nav-li">
+						<a class="nav-link" id="active-link" href="index.html"><i class="nav-icon fas fa-home"></i><span>HOME</span></a>
+					</li>
+					<li class="nav-li">
+						<a class="nav-link" href="#"><i class="nav-icon fas fa-list-alt"></i><span>COLLECTIONS</span></a>
+					</li>
+					<li class="nav-li">
+						<a class="nav-link" href="#"><i class="nav-icon fas fa-shopping-cart"></i><span>PURCHASE LIST</span></a>
+					</li>
+					<li class="nav-li"><button class="nav-btn">POST AN ADD</button></li>
+				</ul>
+				<div class="user-container">
+					<a href="#"><i class="fas fa-envelope"></i></a>
+					<a href="#"><span class="user-name">John Doe</span></a>
+					<a href="#"><img class="user-img" src="https://www.sirgia.com/wp-content/uploads/2017/12/shutterstock_83672362-01.jpg"/></a>
+					<a class="username-initial" href="#">J</a>
+				</div>
+				<a class="menu-icon" href="#"><i class="fas fa-bars"></i></a>
+			</div>
+		</nav>
+
+		<header class="page-header">
+			<div class="page-heading-container">
+				<h1 class="page-name">CALISHOP</h1>
+				<p>No better place to buy calisthenics gear than this!</p>
+			</div>
+			<div class="search-bar">
+				<div class="categories-div">
+					<i class="fas fa-caret-down"></i>
+					<input type="text" placeholder="All categories" />
+				</div>
+				<input type="text" placeholder="What are you looking for?" size="30" />
+				<input type="text" placeholder="Location" size="30" />
+				<button class="search-btn"><a href="#">SEARCH</a></button>
+			</div>
+		</header>
+
+		<main class="bg-grey">
+			<div class="main-grid">
+				<section class="filters">
+					<div class="state-filter">
+						<div>
+							<input type="checkbox" />
+							<label>New</label>
+						</div>
+						<div>
+							<input type="checkbox" />
+							<label>Used</label>
+						</div>
+					</div>
+					<div class="filter-div">
+						<p class="filter-heading">Heading</p>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 1</label>
+						</div>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 2</label>
+						</div>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 3</label>
+						</div>
+					</div>
+					<div class="filter-div">
+						<p class="filter-heading">Heading</p>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 1</label>
+						</div>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 2</label>
+						</div>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 3</label>
+						</div>
+					</div>
+					<div class="filter-div">
+						<p class="filter-heading">Heading</p>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 1</label>
+						</div>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 2</label>
+						</div>
+						<div class="checkbox-div">
+							<input type="checkbox" />
+							<label>checkbox 3</label>
+						</div>
+					</div>
+				</section>
+				<section class="products">
+					<p class="products-results">
+						<span>23</span> Results for <span>Gymnastic Rings</span> at <span>Place</span> in Category <span>Accesories</span>
+					</p>
+					<div class="product-container">
+						<div class="product-grid">
+							<div class="product-img-div">
+								<div class="arrows-div">
+									<i class="fas fa-chevron-left"></i>
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</div>
+							<div class="product-info">
+								<h3 class="product-title">Gymnastic Rings</h3>
+								<p class="product-state">New</p>
+								<p class="product-description">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nesciunt debitis earum, nisi cupiditate ullam quod
+									architecto vel tempora facilis adip
+								</p>
+								<p class="product-location">Location: <span>Wherever</span></p>
+								<p class="date">10 Sept, 2019</p>
+								<div class="product-purchase">
+									<span class="product-price">$50</span>
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-container">
+						<div class="product-grid">
+							<div class="product-img-div">
+								<div class="arrows-div">
+									<i class="fas fa-chevron-left"></i>
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</div>
+							<div class="product-info">
+								<h3 class="product-title">Gymnastic Rings</h3>
+								<p class="product-state">New</p>
+								<p class="product-description">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nesciunt debitis earum, nisi cupiditate ullam quod
+									architecto vel tempora facilis adip
+								</p>
+								<p class="product-location">Location: <span>Wherever</span></p>
+								<p class="date">10 Sept, 2019</p>
+								<div class="product-purchase">
+									<span class="product-price">$50</span>
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-container">
+						<div class="product-grid">
+							<div class="product-img-div">
+								<div class="arrows-div">
+									<i class="fas fa-chevron-left"></i>
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</div>
+							<div class="product-info">
+								<h3 class="product-title">Gymnastic Rings</h3>
+								<p class="product-state">New</p>
+								<p class="product-description">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nesciunt debitis earum, nisi cupiditate ullam quod
+									architecto vel tempora facilis adip
+								</p>
+								<p class="product-location">Location: <span>Wherever</span></p>
+								<p class="date">10 Sept, 2019</p>
+								<div class="product-purchase">
+									<span class="product-price">$50</span>
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-container">
+						<div class="product-grid">
+							<div class="product-img-div">
+								<div class="arrows-div">
+									<i class="fas fa-chevron-left"></i>
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</div>
+							<div class="product-info">
+								<h3 class="product-title">Gymnastic Rings</h3>
+								<p class="product-state">New</p>
+								<p class="product-description">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nesciunt debitis earum, nisi cupiditate ullam quod
+									architecto vel tempora facilis adip
+								</p>
+								<p class="product-location">Location: <span>Wherever</span></p>
+								<p class="date">10 Sept, 2019</p>
+								<div class="product-purchase">
+									<span class="product-price">$50</span>
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-container">
+						<div class="product-grid">
+							<div class="product-img-div">
+								<div class="arrows-div">
+									<i class="fas fa-chevron-left"></i>
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</div>
+							<div class="product-info">
+								<h3 class="product-title">Gymnastic Rings</h3>
+								<p class="product-state">New</p>
+								<p class="product-description">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nesciunt debitis earum, nisi cupiditate ullam quod
+									architecto vel tempora facilis adip
+								</p>
+								<p class="product-location">Location: <span>Wherever</span></p>
+								<p class="date">10 Sept, 2019</p>
+								<div class="product-purchase">
+									<span class="product-price">$50</span>
+									<i class="fas fa-shopping-cart"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<section class="pagination">
+						<button class="page active-page">1</button>
+						<button class="page">2</button>
+						<button class="page">3</button>
+						<button class="page">4</button>
+						<button class="page">5</button>
+						<span class="dots">...</span>
+					</section>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footer-main-container">
+				<div class="footer-logo-div">
+					<p class="footer-logo">CALISHOP</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit voluptatum natus, laudantium accusamus doloremque!
+						Incidunt obcaecati qui sint voluptates in explicabo amet, aperiam id repellendus earum ab veritatis rem?
+					</p>
+				</div>
+				<div class="footer-categories-div">
+					<h4 class="categories-heading">CATEGORIES</h4>
+					<div class="categories-list-container">
+						<div>
+							<a class="categories-link" href="#">Weights</a>
+							<a class="categories-link" href="#">Handles</a>
+							<a class="categories-link" href="#">Structures</a>
+							<a class="categories-link" href="#">Balance</a>
+							<a class="categories-link" href="#">Resistance Bands</a>
+							<a class="categories-link" href="#">Accessories</a>
+						</div>
+						<div>
+							<a class="categories-link" href="#">Weights</a>
+							<a class="categories-link" href="#">Handles</a>
+							<a class="categories-link" href="#">Structures</a>
+							<a class="categories-link" href="#">Balance</a>
+							<a class="categories-link" href="#">Resistance Bands</a>
+							<a class="categories-link" href="#">Accessories</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-navigation-div">
+					<h4 class="navigation-heading">NAVIGATION</h4>
+					<div>
+						<a class="navigation-link" href="#">Home</a>
+						<a class="navigation-link" href="#">Sign In</a>
+						<a class="navigation-link" href="#">Sign Up</a>
+						<a class="navigation-link" href="#">Collections</a>
+						<a class="navigation-link" href="#">Purchase List</a>
+						<a class="navigation-link" href="#">Post an Add</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright-section">
+				<div class="footer-copyright-container">
+					<div class="copyright">
+						Copyright&copy; 2020 Calishop.com. Design by Mohammed Awad, Code by Julian Blasco
+					</div>
+					<div class="social-media">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-linkedin-in"></i>
+						<i class="fab fa-instagram"></i>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

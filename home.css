@@ -9,10 +9,6 @@ body {
   --dark: #383838;
 }
 
-.red-color {
-  color: var(--main-color);
-}
-
 .bg-grey {
   background-color: #eee;
 }
@@ -157,7 +153,6 @@ body {
 }
 
 .search-btn {
-  color: white;
   background-color: var(--dark);
   outline: none;
   border: none;
@@ -165,6 +160,11 @@ body {
   padding: 0 20px;
   margin-left: 20px;
   cursor: pointer;
+}
+
+.search-btn a {
+  color: white;
+  text-decoration: none;
 }
 
 .hot-ads {
@@ -272,8 +272,6 @@ body {
 .rings-purchase i {
   padding-left: 10px;
 }
-
-/**********************************************/
 
 .section-container {
   position: relative;
