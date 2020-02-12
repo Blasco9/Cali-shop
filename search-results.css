@@ -154,17 +154,15 @@ body {
 
 .search-btn {
   background-color: var(--dark);
-  outline: none;
-  border: none;
-  border-radius: 2px;
-  padding: 0 20px;
-  margin-left: 20px;
-  cursor: pointer;
-}
-
-.search-btn a {
   color: white;
+  border-radius: 2px;
+  padding: 15px 20px;
+  margin-left: 20px;
   text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .main-grid {
@@ -178,6 +176,10 @@ body {
   border-right: 1px solid #ccc;
   padding-right: 40px;
   padding-top: 20px;
+}
+
+.d-none {
+  display: none;
 }
 
 .filter-div {
