@@ -15,6 +15,8 @@ This is the Captstone Project for the Microverse CSS and HTML curriculum. The ob
 ## Built with
 - HTML5
 - CSS3
+- Flexbox
+- Grid
 
 ## Credits
 All credits for the design goes to [Mohammed Awad](https://www.behance.net/M_Awad)
