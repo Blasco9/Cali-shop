@@ -21,7 +21,7 @@ body {
 .navbar {
   background-color: var(--dark);
   padding: 10px 0;
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
 }
 
 .navbar-container {
@@ -46,7 +46,7 @@ body {
 .nav-logo {
   color: white;
   text-decoration: none;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   font-size: 1.5rem;
   margin-right: 1rem;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-btn {
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
   background-color: var(--main-color);
   color: white;
   border: none;
@@ -99,7 +99,7 @@ body {
   display: none;
   color: white;
   font-size: 22px;
-  font-family: "Gotham-Bold";
+  font-family: "Gotham-Bold", sans-serif;
   padding: 10px 16px;
   background-color: var(--main-color);
   border-radius: 50%;
@@ -146,7 +146,7 @@ body {
 
 .product-purchase-info {
   padding: 20px 20px 60px 20px;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   color: var(--dark);
 }
 
@@ -199,7 +199,7 @@ body {
   width: 80%;
   padding: 1em;
   margin: 2em auto;
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
   color: var(--dark);
   border: 1px solid #ccc;
 }
@@ -215,7 +215,7 @@ body {
 footer {
   padding: 2rem 0;
   border-top: 1px solid #ccc;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   font-size: 14px;
   position: absolute;
   bottom: 0;
@@ -233,7 +233,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: "HelveticaNeue-Bold";
+  font-family: "HelveticaNeue-Bold", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -252,7 +252,7 @@ footer {
 
 .categories-heading, .navigation-heading {
   color: var(--main-color);
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   border-bottom: 1px solid;
   padding-bottom: 5px;
   margin-bottom: 5px;

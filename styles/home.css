@@ -16,7 +16,7 @@ body {
 .navbar {
   background-color: var(--dark);
   padding: 10px 0;
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
 }
 
 .navbar-container {
@@ -41,7 +41,7 @@ body {
 .nav-logo {
   color: white;
   text-decoration: none;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   font-size: 1.5rem;
   margin-right: 1rem;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-btn {
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
   background-color: var(--main-color);
   color: white;
   border: none;
@@ -94,7 +94,7 @@ body {
   display: none;
   color: white;
   font-size: 22px;
-  font-family: "Gotham-Bold";
+  font-family: "Gotham-Bold", sans-serif;
   padding: 10px 16px;
   background-color: var(--main-color);
   border-radius: 50%;
@@ -113,7 +113,7 @@ body {
 
 .page-heading-container {
   text-align: center;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   color: white;
   margin-top: 2rem;
 }
@@ -127,7 +127,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
 }
 
 .search-bar input {
@@ -179,7 +179,7 @@ body {
 .hot-ads-heading {
   margin-bottom: 1.6rem;
   color: var(--grey);
-  font-family: "HelveticaNeue-Light";
+  font-family: "HelveticaNeue-Light", sans-serif;
 }
 
 .previous, .next {
@@ -235,13 +235,13 @@ body {
 .hot-ads-info {
   padding-left: 2rem;
   color: var(--grey);
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   line-height: 1.5;
 }
 
 .rings-title {
   color: var(--main-color);
-  font-family: "HelveticaNeue-Light";
+  font-family: "HelveticaNeue-Light", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1.2rem;
 }
@@ -251,7 +251,7 @@ body {
 }
 
 .rings-seller span, .rings-location span {
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
 }
 
 .rings-purchase {
@@ -283,7 +283,7 @@ body {
   width: 75%;
   margin: 0 auto;
   padding: 2.5rem 0;
-  font-family: "HelveticaNeue-Light";
+  font-family: "HelveticaNeue-Light", sans-serif;
   color: var(--dark);
 }
 
@@ -306,7 +306,7 @@ body {
 .section-heading {
   margin-bottom: 1.6rem;
   padding-bottom: 1rem;
-  font-family: "HelveticaNeue-Light";
+  font-family: "HelveticaNeue-Light", sans-serif;
   border-bottom: 1px solid #ccc;
 }
 
@@ -419,7 +419,7 @@ body {
 footer {
   padding: 2rem 0;
   border-top: 1px solid #ccc;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   font-size: 14px;
 }
 
@@ -435,7 +435,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: "HelveticaNeue-Bold";
+  font-family: "HelveticaNeue-Bold", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -454,7 +454,7 @@ footer {
 
 .categories-heading, .navigation-heading {
   color: var(--main-color);
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   border-bottom: 1px solid;
   padding-bottom: 5px;
   margin-bottom: 5px;

@@ -16,7 +16,7 @@ body {
 .navbar {
   background-color: var(--dark);
   padding: 10px 0;
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
 }
 
 .navbar-container {
@@ -41,7 +41,7 @@ body {
 .nav-logo {
   color: white;
   text-decoration: none;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   font-size: 1.5rem;
   margin-right: 1rem;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-btn {
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
   background-color: var(--main-color);
   color: white;
   border: none;
@@ -94,7 +94,7 @@ body {
   display: none;
   color: white;
   font-size: 22px;
-  font-family: "Gotham-Bold";
+  font-family: "Gotham-Bold", sans-serif;
   padding: 10px 16px;
   background-color: var(--main-color);
   border-radius: 50%;
@@ -113,7 +113,7 @@ body {
 
 .page-heading-container {
   text-align: center;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   color: white;
   margin-top: 2rem;
 }
@@ -127,7 +127,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
 }
 
 .search-bar input {
@@ -187,7 +187,7 @@ body {
 }
 
 .filter-heading {
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   color: var(--dark);
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
@@ -197,7 +197,7 @@ body {
 .state-filter, .checkbox-div {
   display: flex;
   align-items: center;
-  font-family: "GothamRounded-Light";
+  font-family: "GothamRounded-Light", sans-serif;
   margin: 10px 0;
 }
 
@@ -236,7 +236,7 @@ input[type=checkbox]:checked::after {
 }
 
 .products-results {
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   color: var(--grey);
   padding: 1em 0 1em 2em;
 }
@@ -306,7 +306,7 @@ input[type=checkbox]:checked::after {
 }
 
 .product-info {
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   color: var(--dark);
   padding-left: 4%;
   padding-top: 1%;
@@ -385,7 +385,7 @@ input[type=checkbox]:checked::after {
 footer {
   padding: 2rem 0;
   border-top: 1px solid #ccc;
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   font-size: 14px;
 }
 
@@ -401,7 +401,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: "HelveticaNeue-Bold";
+  font-family: "HelveticaNeue-Bold", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -420,7 +420,7 @@ footer {
 
 .categories-heading, .navigation-heading {
   color: var(--main-color);
-  font-family: "HelveticaNeue-Medium";
+  font-family: "HelveticaNeue-Medium", sans-serif;
   border-bottom: 1px solid;
   padding-bottom: 5px;
   margin-bottom: 5px;
