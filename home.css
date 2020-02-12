@@ -212,6 +212,7 @@ body {
 .hot-ads-img-div {
   position: relative;
   background: url("https://cdn.shopify.com/s/files/1/1715/3893/products/elitewoodrings001_1024x1024.jpg?v=1484539622") center/cover no-repeat;
+  cursor: pointer;
 }
 
 .arrows-div {
@@ -322,6 +323,7 @@ body {
 
 .product-img-div {
   padding: 45%;
+  cursor: pointer;
 }
 
 .structure-1 {
@@ -333,7 +335,7 @@ body {
 }
 
 .structure-3 {
-  background: url(https://www.xorbars.co.uk/wp-content/uploads/2014/04/Custombars2.jpg) center/cover no-repeat;
+  background: url(https://img.archiexpo.com/images_ae/photo-g/57873-3742587.jpg) center/contain no-repeat;
 }
 
 .structure-4 {
@@ -536,6 +538,10 @@ footer {
   .product-container:nth-of-type(3), .product-container:nth-of-type(4) {
     display: none;
   }
+
+  .social-media {
+    min-width: 120px;
+  }
 }
 
 @media screen and (max-width: 870px) {
@@ -598,7 +604,7 @@ footer {
   }
 
   .hot-ads-container .previous, .hot-ads-container .next {
-    top: 32%;
+    top: 35%;
   }
 
   .rings-purchase {
@@ -643,6 +649,10 @@ footer {
     display: block;
   }
 
+  .rings-description, .rings-seller, .rings-location {
+    font-size: 14px;
+  }
+
   .products-grid {
     grid-template-columns: 1fr;
   }
@@ -650,4 +660,33 @@ footer {
   .product-container:nth-of-type(2) {
     display: none;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .hot-ads-img-div {
+    min-height: 300px;
+  }
+
+  .hot-ads-container .previous {
+    left: -36px;
+    padding: 6px 10px 4px 8px;
+    font-size: 20px;
+  }
+
+  .hot-ads-container .next {
+    right: -36px;
+    padding: 6px 8px 4px 10px;
+    font-size: 20px;
+  }
+  
+  .previous-product {
+    font-size: 30px;
+    left: -35px;
+  }
+
+  .next-product {
+    font-size: 30px;
+    right: -35px;
+  }
+
 }

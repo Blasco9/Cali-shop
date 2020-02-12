@@ -167,7 +167,6 @@ body {
   text-decoration: none;
 }
 
-/* Page styles */
 .main-grid {
   width: 90%;
   margin: 0 auto;
@@ -262,7 +261,7 @@ input[type=checkbox]:checked::after {
 
 .product-img-div {
   position: relative;
-  background: url("https://cdn.shopify.com/s/files/1/1715/3893/products/elitewoodrings001_1024x1024.jpg?v=1484539622") center/cover no-repeat;
+  cursor: pointer;
 }
 
 .arrows-div {
@@ -276,6 +275,26 @@ input[type=checkbox]:checked::after {
 
 .arrows-div i {
   padding: 8px 10px;
+}
+
+.img-1 {
+  background: url("https://www.gymstick.fi/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/s/t/str-pud_1.jpg") center/cover no-repeat;
+}
+
+.img-2 {
+  background: url("https://againfaster.eu/media/catalog/product/cache/10f519365b01716ddb90abc57de5a837/1/5/1577-af-pull-up-bar.jpg") center/cover no-repeat;
+}
+
+.img-3 {
+  background: url("https://s.yimg.com/aah/yhst-17965644003626/wall-mounted-pull-up-bar-65.jpg") center/cover no-repeat;
+}
+
+.img-4 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTeKx2bttjEi2zW5IuFMEikRbUIvVyJSTmSAdoSyZGrvK6x3liO") center/cover no-repeat;
+}
+
+.img-5 {
+  background: url("https://www.valorfitness.com/assets/images/chn-up_1-main-3500x3500.jpg") center/cover no-repeat;
 }
 
 .product-info {
@@ -355,7 +374,6 @@ input[type=checkbox]:checked::after {
   letter-spacing: 2px;
 }
 
-/*Footer styles*/
 footer {
   padding: 2rem 0;
   border-top: 1px solid #ccc;
@@ -448,6 +466,10 @@ footer {
 
   .product-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .social-media {
+    min-width: 120px;
   }
 }
 
