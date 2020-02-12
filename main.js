@@ -1,9 +1,7 @@
 if(window.location.pathname != "/product.html") {
   window.onload = () => {
     let imgs = [...document.querySelectorAll(".product-img-div")],
-        url = window.location.href,
-        path = window.location.pathname,
-        productPath = url.replace(path, "/product.html");
+        path = window.location.pathname;
 
     if(path == "/" || path == "/index.html") {
       imgs.push(document.querySelector(".hot-ads-img-div"))
@@ -13,7 +11,6 @@ if(window.location.pathname != "/product.html") {
       let backgroundImg = window.getComputedStyle(img).backgroundImage;
       img.addEventListener("click", function() {
         localStorage.setItem("url", backgroundImg)
-        window.location.replace(productPath)    
       });
     });
   } 

@@ -266,6 +266,12 @@ input[type=checkbox]:checked::after {
   cursor: pointer;
 }
 
+.img-anchor {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
 .arrows-div {
   position: absolute;
   right: 0;
