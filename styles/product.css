@@ -123,6 +123,7 @@ body {
 }
 
 .product-img-div {
+  background-image: url(https://github.com/Blasco9/Cali-shop/blob/development/index.html);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
