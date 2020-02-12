@@ -10,13 +10,13 @@ if(window.location.pathname != "/product.html") {
     imgs.forEach( img => {
       let backgroundImg = window.getComputedStyle(img).backgroundImage;
       img.addEventListener("click", function() {
-        localStorage.setItem("url", backgroundImg)
+        sessionStorage.setItem("url", backgroundImg)
       });
     });
   } 
 } else {
   window.onload = () => {
     let img = document.querySelector(".product-img-div");
-    img.style.backgroundImage = localStorage.getItem("url");
+    img.style.backgroundImage = sessionStorage.getItem("url") || "https://calisthenicseastafrica.org/wp-content/uploads/2019/06/1.jpeg";
   }
 }
