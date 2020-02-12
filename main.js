@@ -1,20 +1,21 @@
 if(window.location.pathname != "/product.html") {
   window.onload = () => {
     let imgs = [...document.querySelectorAll(".product-img-div")],
-        origin = window.location.origin,
-        path = window.location.pathname;
-  
+        url = window.location.href,
+        path = window.location.pathname,
+        productPath = url.replace(path, "/product.html");
+
     if(path == "/" || path == "/index.html") {
       imgs.push(document.querySelector(".hot-ads-img-div"))
     }
-  
+
     imgs.forEach( img => {
       let backgroundImg = window.getComputedStyle(img).backgroundImage;
       img.addEventListener("click", function() {
         localStorage.setItem("url", backgroundImg)
-        window.location.replace(origin+"/product.html")    
+        window.location.replace(productPath)    
       });
-    })
+    });
   } 
 } else {
   window.onload = () => {
