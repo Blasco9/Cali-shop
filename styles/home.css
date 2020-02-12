@@ -251,7 +251,8 @@ body {
   margin-bottom: 1.2rem;
 }
 
-.rings-seller span, .rings-location span {
+.rings-seller span,
+.rings-location span {
   font-family: "GothamRounded-Light", sans-serif;
 }
 
