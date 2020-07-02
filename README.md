@@ -1,5 +1,5 @@
 # Cali-shop
-This is the Captstone Project for the Microverse CSS and HTML curriculum. The objective of this project is to create a website using the design provided [here](https://www.behance.net/gallery/24796463/ZATTIX) with whatever content you desire. I chose to make a shop for calisthenics gear for fitness enthusiasts.
+This is the Capstone Project for the Microverse CSS and HTML curriculum. The objective of this project is to create a website using the design provided [here](https://www.behance.net/gallery/24796463/ZATTIX) with whatever content you desire. I chose to make a shop for calisthenics gear for fitness enthusiasts.
 
 ## Screenshots
 ![screenshot 1](./screenshots/Screenshot1.bmp)
@@ -18,5 +18,35 @@ This is the Captstone Project for the Microverse CSS and HTML curriculum. The ob
 - Flexbox
 - Grid
 
-## Credits
-All credits for the design goes to [Mohammed Awad](https://www.behance.net/M_Awad)
+## Install
+
+Clone this repo:
+
+`git clone git@github.com:Blasco9/Cali-shop.git`
+
+## Author
+
+👤 **Julian Blasco**
+
+- Github: [@Blasco9](https://github.com/Blasco9)
+- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-blasco/)
+- Email: blascoblasco9@gmail.com
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Dessign by [Mohammed Awad](https://www.behance.net/M_Awad)
+- Microverse
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
