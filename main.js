@@ -16,7 +16,10 @@ if(window.location.pathname != "/product.html") {
   } 
 } else {
   window.onload = () => {
-    let img = document.querySelector(".product-img-div");
-    img.style.backgroundImage = sessionStorage.getItem("url") || "https://calisthenicseastafrica.org/wp-content/uploads/2019/06/1.jpeg";
+    let imgContainer = document.querySelector(".product-img-div"),
+        img = sessionStorage.getItem("url");
+
+    imgContainer.style.backgroundImage = img;
+    img.includes('rings') ? imgContainer.style.backgroundSize = 'cover' : null
   }
 }

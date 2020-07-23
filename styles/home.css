@@ -210,7 +210,7 @@ body {
 
 .hot-ads-img-div {
   position: relative;
-  background: url("https://cdn.shopify.com/s/files/1/1715/3893/products/elitewoodrings001_1024x1024.jpg?v=1484539622") center/cover no-repeat;
+  background: url('/images/rings.jpg') center/cover no-repeat;
   cursor: pointer;
 }
 
@@ -333,51 +333,51 @@ body {
 }
 
 .structure-1 {
-  background: url(https://images-na.ssl-images-amazon.com/images/I/61VGFbQQxuL._AC_SX425_.jpg) center/contain no-repeat;
+  background: url('/images/structures/structure1.jpg') center/contain no-repeat;
 }
 
 .structure-2 {
-  background: url(https://images-na.ssl-images-amazon.com/images/I/31IZ31R%2BNJL._SX425_.jpg) center/contain no-repeat;
+  background: url('/images/structures/structure2.jpg') center/contain no-repeat;
 }
 
 .structure-3 {
-  background: url(https://img.archiexpo.com/images_ae/photo-g/57873-3742587.jpg) center/contain no-repeat;
+  background: url('/images/structures/structure3.jpg') center/contain no-repeat;
 }
 
 .structure-4 {
-  background: url(https://calisthenicseastafrica.org/wp-content/uploads/2019/06/1.jpeg) center/contain no-repeat;
+  background: url('/images/structures/structure4.jpg') center/contain no-repeat;
 }
 
 .weights-1 {
-  background: url(https://cdn.shopify.com/s/files/1/1950/1891/products/LRG_DSC03081.jpg?v=1546481868) center/contain no-repeat;
+  background: url('/images/weights/weight1.jpg') center/contain no-repeat;
 }
 
 .weights-2 {
-  background: url(https://www.rebelsport.com.au/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-srg-internal-master-catalog/default/dwac1d616c/images/554911/Rebel_554911_hi-res.jpg?sw=558&sh=558&sm=fit) center/contain no-repeat;
+  background: url('/images/weights/weight2.jpg') center/contain no-repeat;
 }
 
 .weights-3 {
-  background: url(https://cdn.shopify.com/s/files/1/2094/9815/products/Camoflage_Weight_Vest_WV30_WV10_WV15_WV20-WEB.jpg?v=1571708445) center/contain no-repeat;
+  background: url('/images/weights/weight3.jpg') center/contain no-repeat;
 }
 
 .weights-4 {
-  background: url(https://images-na.ssl-images-amazon.com/images/I/91TSvAKh11L._AC_SL1500_.jpg) center/contain no-repeat;
+  background: url('/images/weights/weight4.jpg') center/contain no-repeat;
 }
 
 .handles-1 {
-  background: url(https://m.media-amazon.com/images/I/61wwnZwBAqL._SR500,500_.jpg) center/contain no-repeat;
+  background: url('/images/handles/handle1.jpg') center/contain no-repeat;
 }
 
 .handles-2 {
-  background: url(https://www.gymnasticsdirect.com.au/images/products/367_one.jpg) center/contain no-repeat;
+  background: url('/images/handles/handle2.jpg') center/contain no-repeat;
 }
 
 .handles-3 {
-  background: url(https://images-na.ssl-images-amazon.com/images/I/718Os1JFIqL._AC_SL1500_.jpg) center/contain no-repeat;
+  background: url('/images/handles/handle3.jpg') center/contain no-repeat;
 }
 
 .handles-4 {
-  background: url(https://rukminim1.flixcart.com/image/352/352/bar/d/s/p/nike-push-up-grips-original-imadp5hsgdfxga7g.jpeg?q=70) center/contain no-repeat;
+  background: url('/images/handles/handle4.jpeg') center/contain no-repeat;
 }
 
 .product-info {
