@@ -10,7 +10,7 @@ This is the Capstone Project for the Microverse CSS and HTML curriculum. The obj
 [Here](https://www.loom.com/share/d79b425a6d2c45fd8606fcf307f66e14) I show the pages comprised in the project, how to acces them and the responsiveness of each one.
 
 ## Live Demo
-[View the website here](https://rawcdn.githack.com/Blasco9/Cali-shop/f889a3d60102f87b0480e576fe7d5cb1b169618d/index.html)
+[View the website here](https://blasco9.github.io/Cali-shop/)
 
 ## Built with
 - HTML5
