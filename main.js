@@ -1,9 +1,11 @@
-if(window.location.pathname != "/product.html") {
+if(!window.location.pathname.includes("/product.html")) {
+  console.log('pathname != product');
   window.onload = () => {
     let imgs = [...document.querySelectorAll(".product-img-div")],
         path = window.location.pathname;
 
     if(path == "/" || path == "/index.html") {
+      console.log('path == / or /index.html');
       imgs.push(document.querySelector(".hot-ads-img-div"))
     }
 
