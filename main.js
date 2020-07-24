@@ -18,7 +18,8 @@ if(window.location.pathname != "/product.html") {
   window.onload = () => {
     let imgContainer = document.querySelector(".product-img-div"),
         img = sessionStorage.getItem("url");
-
+    console.log("loaded page");
+    console.log(img);
     imgContainer.style.backgroundImage = img;
     img.includes('rings') ? imgContainer.style.backgroundSize = 'cover' : null
   }
