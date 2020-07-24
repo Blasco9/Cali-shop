@@ -15,6 +15,7 @@ if(window.location.pathname != "/product.html") {
     });
   } 
 } else {
+  console.log("something went wrong");
   window.onload = () => {
     let imgContainer = document.querySelector(".product-img-div"),
         img = sessionStorage.getItem("url");
