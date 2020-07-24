@@ -210,7 +210,7 @@ body {
 
 .hot-ads-img-div {
   position: relative;
-  background: url('/images/rings.jpg') center/cover no-repeat;
+  background: url('../images/rings.jpg') center/cover no-repeat;
   cursor: pointer;
 }
 
@@ -333,51 +333,51 @@ body {
 }
 
 .structure-1 {
-  background: url('/images/structures/structure1.jpg') center/contain no-repeat;
+  background: url('../images/structures/structure1.jpg') center/contain no-repeat;
 }
 
 .structure-2 {
-  background: url('/images/structures/structure2.jpg') center/contain no-repeat;
+  background: url('../images/structures/structure2.jpg') center/contain no-repeat;
 }
 
 .structure-3 {
-  background: url('/images/structures/structure3.jpg') center/contain no-repeat;
+  background: url('../images/structures/structure3.jpg') center/contain no-repeat;
 }
 
 .structure-4 {
-  background: url('/images/structures/structure4.jpg') center/contain no-repeat;
+  background: url('../images/structures/structure4.jpg') center/contain no-repeat;
 }
 
 .weights-1 {
-  background: url('/images/weights/weight1.jpg') center/contain no-repeat;
+  background: url('../images/weights/weight1.jpg') center/contain no-repeat;
 }
 
 .weights-2 {
-  background: url('/images/weights/weight2.jpg') center/contain no-repeat;
+  background: url('../images/weights/weight2.jpg') center/contain no-repeat;
 }
 
 .weights-3 {
-  background: url('/images/weights/weight3.jpg') center/contain no-repeat;
+  background: url('../images/weights/weight3.jpg') center/contain no-repeat;
 }
 
 .weights-4 {
-  background: url('/images/weights/weight4.jpg') center/contain no-repeat;
+  background: url('../images/weights/weight4.jpg') center/contain no-repeat;
 }
 
 .handles-1 {
-  background: url('/images/handles/handle1.jpg') center/contain no-repeat;
+  background: url('../images/handles/handle1.jpg') center/contain no-repeat;
 }
 
 .handles-2 {
-  background: url('/images/handles/handle2.jpg') center/contain no-repeat;
+  background: url('../images/handles/handle2.jpg') center/contain no-repeat;
 }
 
 .handles-3 {
-  background: url('/images/handles/handle3.jpg') center/contain no-repeat;
+  background: url('../images/handles/handle3.jpg') center/contain no-repeat;
 }
 
 .handles-4 {
-  background: url('/images/handles/handle4.jpeg') center/contain no-repeat;
+  background: url('../images/handles/handle4.jpeg') center/contain no-repeat;
 }
 
 .product-info {
