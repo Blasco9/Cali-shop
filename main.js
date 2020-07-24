@@ -1,7 +1,9 @@
 if(!window.location.pathname.includes("/product.html")) {
-  console.log('pathname != product');
   window.onload = () => {
-    let imgs = [...document.querySelectorAll(".product-img-div")];
+    let imgs = [...document.querySelectorAll(".product-img-div")],
+    mainImg = document.querySelector(".hot-ads-img-div");
+
+    mainImg ? imgs.push(mainImg) : null;
 
     imgs.forEach( img => {
       let backgroundImg = window.getComputedStyle(img).backgroundImage;
@@ -13,8 +15,8 @@ if(!window.location.pathname.includes("/product.html")) {
 } else {
   window.onload = () => {
     let imgContainer = document.querySelector(".product-img-div"),
-        img = sessionStorage.getItem("url") || "url('../images/rings.jpg')";
-    console.log(img);
+        img = sessionStorage.getItem("url");
+
     imgContainer.style.backgroundImage = img;
     img.includes('rings') ? imgContainer.style.backgroundSize = 'cover' : null
   }
